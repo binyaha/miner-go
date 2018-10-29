@@ -15,7 +15,7 @@ import machine.views
 # Learn more here: https://docs.djangoproject.com/en/2.1/topics/http/urls/
 
 urlpatterns = [
-    path("", miner.views.index, name="index"),
-    path("db/", miner.views.db, name="db"),
-    path("admin/", miner.site.urls),
+    path("", machine.views.index, name="index"),
+    path("db/", machine.views.db, name="db"),
+    path("admin/", machine.site.urls),
 ]
