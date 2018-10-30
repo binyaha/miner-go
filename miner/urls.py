@@ -16,5 +16,5 @@ import machine.views
 
 urlpatterns = [
     path("", machine.views.index, name="index"),
-    path("db/", machine.views.db, name="db"),
+    path("detail/", machine.views.detail, name="detail"),
 ]
