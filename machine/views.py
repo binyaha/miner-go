@@ -20,7 +20,7 @@ def index(request):
 	return HttpResponse('index page')
 
 # @login_required(login_url="/accounts/login")
-def detail(request, miner_id):
+def detail(request):
 	# machine = Miner.objects.get(pk=miner_id)
 	# pools = Pool.objects.all()
 	# try:
